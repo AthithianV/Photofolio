@@ -1,0 +1,53 @@
+.form {
+    color: black;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(110deg, #02C1CC, #7D2BE7);
+    /* background-color: black; */
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 0.5rem -0.5rem grey;
+    text-align: center;
+}
+
+.title {
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+.input {
+    width: 95%;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
+    border-bottom: 1px solid 0275d8;
+    color: black;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px 10px;
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: 0 0.5rem 0.5rem -0.4rem black;
+    background-color: white;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    margin-bottom: -4px;
+}

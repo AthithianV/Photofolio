@@ -1,0 +1,99 @@
+.album{
+    align-items: start;
+    height: 65%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem -0.1rem black;
+    margin-bottom: 10px;
+    /* background: linear-gradient(110deg, #02C1CC, #7D2BE7); */
+        /* background-color: #02C1CC; */
+}
+.title{
+    margin: 2px 0 5px 0;
+    /* color: white; */
+    text-align: center;
+}
+.images {
+    height: 100%;
+    overflow: scroll;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.images::-webkit-scrollbar{
+    width: 5px;
+    display: none;
+}
+
+.images::-webkit-scrollbar-track {
+    display: none;
+}
+
+.images::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.images::-webkit-scrollbar-thumb{
+    background: #7D2BE7;
+    border-radius: 20px;
+    display: none;
+    transition: ease-in-out 0.2s;
+}
+
+.images:hover::-webkit-scrollbar-thumb {
+    display: inline;
+}
+
+
+.thumbnail{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+}
+
+.imageContainer:hover{
+    box-shadow: 0 0 0.8rem -0.1rem black;
+}
+
+.imageContainer{
+    height: 92px;
+    width: 92px;
+    position: relative;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.delete{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 3px;
+    border-radius: 5px;
+    display: none;
+}
+
+.delete:hover{
+    transform: scale(1.1);
+}
+
+.imageContainer:hover .delete{
+    display: block;
+}
+
+
+
+
+
+
